@@ -6,10 +6,10 @@ module.exports = {
     entry: path.resolve(__dirname, 'src/ExpertSystemLite.js'),
     output: {
         path: path.resolve(__dirname, 'lib'),
-        filename: 'expert-system-lite.min.js'
-        // libraryExport: 'default',
-        // libraryTarget: 'umd',
-        // library: ''
+        filename: 'expert-system-lite.min.js',
+        libraryExport: 'default',
+        libraryTarget: 'umd',
+        library: 'Expert'
     },
     module: {
         rules: [
